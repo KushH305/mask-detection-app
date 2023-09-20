@@ -1,0 +1,227 @@
+/* CSS for WelcomePage */
+
+/* Global styles */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #222;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);
+  }
+  
+  /* Header section */
+
+  .welcome-header {
+    display: flex;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    color: #000000;
+    margin-top: 5rem;
+  }
+
+  .welcome-header h1{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+
+  }
+
+  .welcome-header p {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    max-width: 850px;
+    font-weight: bold;
+  }
+  
+  /* Button styles */
+  .button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; /* Center the button horizontally */
+
+  }
+  
+  .button {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    background-color: #f5f5f5;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #dcdcdc; /* Slightly darker color for hover */
+    color: #000000; /* Change the text color for better contrast */
+  }
+  
+  /* How it works section */
+  .how-it-works {
+    margin-top: 7rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .how-it-works h2 {
+    font-size: 4rem; /* Adjust the font size as needed */
+    font-weight: bolder;
+    font-family: 'Alegreya', sans-serif;
+    margin-bottom: 5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+
+
+  }
+
+  .how-it-works h3 {
+    font-size: 3.5rem; /* Adjust the font size as needed */
+    font-weight: bolder;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+
+  }
+  
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Steps */
+  .steps {
+    margin-bottom: 3rem;
+  }
+
+  .steps h3{
+    font-size: 2.2rem;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Step content */
+  .step-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .step-description {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: rgba(186, 186, 186, 0.5); /* Adjust opacity as needed */
+    padding: 1rem; /* Add some padding for better readability */
+    border-radius: 5px; /* Add rounded corners for a modern look */
+    font-weight: bold; /* Make the text inside the step-description bold */
+    color: #000000; /* Set the text color to white for better contrast */
+    font-family: 'Alegreya Sans', sans-serif;
+
+  }
+  
+  .step-image {
+    max-width: 1200px;
+    border: 4px solid lightgray;
+    border-radius: 50px;
+    padding: 8px;
+  }
+/* CSS for your component */
+.demovid {
+  text-align: center; /* Center-align the header */
+}
+
+.demo-vid-h2 {
+  margin-bottom: 50px; /* Reduce the margin between the header and the video */
+  color: white;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+}
+
+.video-container {
+  display: inline-block; /* Display the video container inline */
+  border: 4px solid rgb(45, 45, 45); /* Add a border to the video container */
+  border-radius: 10px; /* Add rounded corners to the border */
+  overflow: hidden; /* Hide any overflowing content within the container */
+}
+
+.video-container video {
+  max-width: 100%; /* Make sure the video fits within the container */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove any extra spacing around the video */
+}
+.creator-avatars {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-bottom: 3rem;
+}
+
+.creator-avatar {
+  text-align: center;
+}
+
+.creator-avatar img {
+  border-radius: 50%;
+  width: 130px; /* Adjust size as needed */
+  height: 130px; /* Adjust size as needed */
+}
+
+.creator-avatar h3 {
+  margin-top: 10px;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 2.5rem;
+}
+
+.creator-avatar a {
+  color: rgb(255, 255, 255); /* Link color */
+  text-decoration: none;
+  font-size: 1.3rem;
+  
+}
+
+.creator-avatar a:hover {
+  text-decoration: underline;
+}
+
+.social-media h3{
+  color: white;
+}
+
+.social-h2{
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  font-family: 'Alegreya', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+
+}
+  
